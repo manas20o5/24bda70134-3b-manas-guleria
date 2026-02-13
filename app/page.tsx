@@ -45,7 +45,7 @@ export default function Page() {
       <div className="max-w-3xl mx-auto px-4">
         
         {/* Title */}
-        <h1 className="text-4xl font-bold text-center mb-8">
+        <h1 className="text-4xl font-bold text-center text-black mb-8">
           Library Management System
         </h1>
 
@@ -93,8 +93,12 @@ export default function Page() {
               className="bg-white rounded-xl border shadow-sm p-6 flex justify-between items-center"
             >
               <div>
-                <h2 className="text-xl font-bold">{book.title}</h2>
-                <p className="text-gray-600 mt-1">by {book.author}</p>
+                <h2 className="text-xl font-bold text-black">
+                  {book.title}
+                </h2>
+                <p className="text-black font-bold mt-1">
+                  by {book.author}
+                </p>
               </div>
 
               <button
